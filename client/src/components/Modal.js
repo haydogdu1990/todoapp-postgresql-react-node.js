@@ -62,6 +62,7 @@ const Modal =({mode, setShowModal, task})=> {
               id="range"
               min="0"
               max="100"
+              name="progress"
               value={data.progress}
               onChange={handleChange}
             />
