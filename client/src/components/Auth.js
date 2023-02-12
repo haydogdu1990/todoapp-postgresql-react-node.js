@@ -32,6 +32,7 @@ const Auth = () => {
       }
     );
     const data = await response.json();
+
     if (data.detail) {
       setError(data.detail);
     } else {
