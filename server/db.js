@@ -7,6 +7,7 @@ const pool = new Pool({
   host: process.env.HOST,
   port: process.env.DBPORT,
   database: "todoapp",
+  ssl: true,
 });
 
 module.exports = pool;
